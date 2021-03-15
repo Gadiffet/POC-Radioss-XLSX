@@ -4,7 +4,7 @@
 ## Summary
 
 The <i>Comparator-XLS-and-RAD</i>, is programm to compare between XLS files and RAD files.
-After this comparison, it exports another XLS file with the "errors".
+After this comparison, it exports another XLS file with the "differences".
 
 ## Demo and functionality
 
@@ -22,4 +22,4 @@ By mails :
 
 ## Links
 
-[How To Setup The Project](https://gitlab.com/T.Gadiffet/static-site-generator/-/blob/master/DEVELOPERS.md)
+[How To Setup The Project](https://github.com/Gadiffet/comparator-xls-and-rad/blob/main/DEVELOPERS.md)

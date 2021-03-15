@@ -1,3 +1,3 @@
-from prop_type.prop_type1 import prop_type1
+from prop_type.prop_type1 import prop_type1_rad_file_cleanup
 
-prop_type1.prop_type1()
+prop_type1_rad_file_cleanup.prop_type1_rad_file_cleanup()
