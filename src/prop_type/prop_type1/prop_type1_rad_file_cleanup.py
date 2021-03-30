@@ -16,7 +16,7 @@ def prop_type1_rad_file_cleanup():
             # Initialize variable
             matLaw02 = 0
             propType1 = 0
-            a = 0
+
             # The For loop, executes a set of instructions, once for each line of the RAD file
             for index, line in enumerate(radFile):
 
