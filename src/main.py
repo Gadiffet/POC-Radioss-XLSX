@@ -1,3 +1,7 @@
-from prop_type.prop_type1 import prop_type1_rad_file_cleanup
+from prop_type import prop_type1_rad_file_cleanup
+from mat_law import mat_law02_rad_file_cleanup
+import xlsx_creation
 
 prop_type1_rad_file_cleanup.prop_type1_rad_file_cleanup()
+mat_law02_rad_file_cleanup.mat_law02_rad_file_cleanup()
+xlsx_creation.xlsx_creation()
