@@ -1,4 +1,4 @@
-# Comparator-XLS-and-RAD
+# POC-Radioss-XLSX
 >[GADIFFET] - 2020
 
 <h2><i>Technology Used :</i></h2>

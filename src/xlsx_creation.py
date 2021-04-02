@@ -235,6 +235,12 @@ def xlsx_creation():
                                 row, dfEntry.columns.get_loc("Expected failure criterion\nCMAG")] = '{} !'.format(
                                 dfEntry.iloc[row, dfEntry.columns.get_loc("Expected failure criterion\nCMAG")])
 
+                        if 'ODG3' in dfEntry.iloc[row, inputRadiossMatNameColumn] and dfEntry.iloc[
+                            row, dfEntry.columns.get_loc("Expected failure criterion\nCMAG")] != "Yes":
+                            dfEntry.iloc[
+                                row, dfEntry.columns.get_loc("Expected failure criterion\nCMAG")] = '-->{}'.format(
+                                dfEntry.iloc[row, dfEntry.columns.get_loc("Expected failure criterion\nCMAG")])
+
                         if dfEntry.iloc[row, inputRadiossMatNameColumn] == dfOut.iloc[row3, outputRadiossMatNameColumn]:
                             # todo global : More scalability with %
                             # todo Link between RadiosMat and MatID

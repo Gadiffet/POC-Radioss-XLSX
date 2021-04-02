@@ -1,9 +1,9 @@
-# Comparator-XLS-and-RAD
+# POC-Radioss-XLSX
 >[GADIFFET] - 2020
 
 ## Summary
 
-The <i>Comparator-XLS-and-RAD</i>, is programm to compare between XLS files and RAD files.
+The <i>POC-Radioss-XLSX</i>, is programm to compare between XLS files and RAD files.
 After this comparison, it exports another XLS file with the "differences".
 
 ## Demo and functionality
